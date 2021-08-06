@@ -1,0 +1,26 @@
+1. What is Template and Why use Templates?
+
+>> The simple idea of template is to pass data type as a parameter so that we don’t need to write the same code for  different data types.
+For eg:
+
+** Without templates **
+class Vector{
+    int *arr;
+    int size;
+    Public:
+        void store();
+        void dsiplay();
+}
+If I want to use a 'char' array or an array with 'floating values' then I would have to create another class VecChar or VecFloat with char and float datatypes resp , which will be a very tedious work.
+Instead with Templates, we just have to write code once and it will work for all data types
+
+**With Templates** (Syntax of Templates)
+
+template <class T>      //(Here T can be int,float,char,etc...)
+class Vector{
+    T *arr;
+    T size;
+    Public:
+        void store();
+        Vector(T *a); //Constructor with an array parameter
+}
