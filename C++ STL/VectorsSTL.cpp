@@ -29,6 +29,7 @@ int main()
     // sort(vec1.begin(),vec1.end(),greater<int>());
     // vec1.pop_back();    //would pop the least element
 
+    display(vec1);
     iter=vec1.begin();
     vec1.insert(iter+1,10,200);
     display(vec1);
