@@ -1,0 +1,125 @@
+Member functions
+1.) (constructor)
+//Construct vector (public member function )
+
+2.) (destructor)
+//Vector destructor (public member function )
+
+3.) operator=
+//Assign content (public member function )
+
+
+Iterators:
+1.) begin
+//Return iterator to beginning (public member function )
+
+2.) end
+//Return iterator to end (public member function )
+
+3.) rbegin
+//Return reverse iterator to reverse beginning (public member function )
+
+4.) rend
+//Return reverse iterator to reverse end (public member function )
+
+5.) cbegin 
+//Return const_iterator to beginning (public member function )
+
+6.) cend 
+//Return const_iterator to end (public member function )
+
+7.) crbegin 
+//Return const_reverse_iterator to reverse beginning (public member function )
+
+8.) crend 
+//Return const_reverse_iterator to reverse end (public member function )
+
+
+Capacity:
+1.) size
+//Return size (public member function )
+
+2.) max_size
+//Return maximum size (public member function )
+
+3.) resize
+Change size (public member function )
+
+4.) capacity
+//Return size of allocated storage capacity (public member function )
+
+5.) empty
+//Test whether vector is empty (public member function )
+
+6.) reserve
+//Request a change in capacity (public member function )
+
+7.) shrink_to_fit 
+//Shrink to fit (public member function )
+
+
+Element access:
+1.) operator[]
+//Access element (public member function )
+
+2.) at
+//Access element (public member function )
+
+3.) front
+//Access first element (public member function )
+
+4.) back
+//Access last element (public member function )
+
+5.) data 
+//Access data (public member function )
+
+
+Modifiers:
+1.) assign
+//Assign vector content (public member function )
+
+2.) push_back
+//Add element at the end (public member function )
+
+3.) pop_back
+//Delete last element (public member function )
+
+4.) insert
+//Insert elements (public member function )
+
+5.) erase
+//Erase elements (public member function )
+
+6.) swap
+//Swap content (public member function )
+
+7.) clear
+//Clear content (public member function )
+
+8.) emplace 
+//Construct and insert element (public member function )
+
+9.) emplace_back 
+//Construct and insert element at the end (public member function )
+
+
+
+Allocator:
+1.) get_allocator
+//Get allocator (public member function )
+
+
+
+Non-member function overloads:
+1.) relational operators
+//Relational operators for vector (function template )
+
+2.) swap
+//Exchange contents of vectors (function template )
+
+
+
+Template specializations:
+1.) vector<bool>
+//Vector of bool (class template specialization )
