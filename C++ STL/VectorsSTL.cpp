@@ -31,7 +31,7 @@ int main()
 
     display(vec1);
     iter=vec1.begin();
-    vec1.insert(iter+1,10,200);
+    vec1.insert(iter+1,10,150);    //Inserts at where the iterator points, 10 times , the value entered(here:- 150) 
     display(vec1);
     
  return 0;
