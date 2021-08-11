@@ -12,8 +12,8 @@ int main()
     marksMap["Boy3"]=70;
     marksMap["Boy4"]=90;
 
+    marksMap.insert({{"Kozume", 169}, {"Kuroo", 187}});
     map<string,int> :: iterator iter;
-
     for(iter=marksMap.begin(); iter!= marksMap.end(); iter++)
     {
         cout<<(*iter).first<<" : "<<(*iter).second<<endl;
