@@ -22,7 +22,7 @@ int main()
     int x;
     for (int i = 0; i < n; i++)
     {
-        cout<< "Enter number to add to this vector "<<endl;
+        cout<< "Enter number to add to this vector : "<<endl;
         cin>>x;
         vec1.push_back(x);
     }
