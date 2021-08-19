@@ -36,5 +36,11 @@ int main()
         arr.push_back(a[i]);
     }
 
-    vector<int> result = breakingRecords(arr);
+    vector<int> result = breakingRecords(arr);  //storing vec1 in result vector
+    
+    //displaing the resulting array
+    for(int i=0;i<result.size();i++)
+    {
+        cout<<result[i]<<" ";
+    }
 }
