@@ -44,7 +44,7 @@ int main()
     y = strlen(B);
 
     int z = LCS(A, B, x, y);
-    if (z == x)
+    if (z==x)
     {
         cout << "YES";
     }
