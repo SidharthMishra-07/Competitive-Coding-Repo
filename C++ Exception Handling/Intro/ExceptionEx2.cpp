@@ -12,7 +12,7 @@ int main()
         cout << "Caught " << excp;
     }
     catch (...)  {
-        cout << "Default Exception\n";
+        cout << "Default Exception \n";
     }
     return 0;
 }
