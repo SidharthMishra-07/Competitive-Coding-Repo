@@ -17,4 +17,4 @@ int main()
     return 0;
 }
 
-// Here 10 is an int hence it doesnt go into the first catch().
+// Here 10 is an int hence it doesnt go into the first catch()
