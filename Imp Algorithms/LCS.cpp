@@ -2,7 +2,7 @@
 #include <string.h>
 using namespace std;
 
-int max(int x, int y)
+int maxOf(int x, int y)
 {
     if (x > y)
         return x;
@@ -27,7 +27,7 @@ int LCS(char *a, char *b, int x, int y)
             }
             else
             {
-                L[i][j] = max(L[i - 1][j], L[i][j - 1]);
+                L[i][j] = maxOf(L[i - 1][j], L[i][j - 1]);
             }
         }
     }
