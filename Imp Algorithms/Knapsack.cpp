@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void knapsack(float w[],float p[],int c,int n)
+void knapsack(float w[],float p[],int c, int n)
 {
     float P=0.00,u[20];
     int i,k;
