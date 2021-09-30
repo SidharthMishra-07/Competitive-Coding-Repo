@@ -2,7 +2,17 @@ Maps are associative containers that store elements formed by a combination of a
 
 std:: map <key_type, data_type>
 
-Declaration:
+* Declaration:
 map<string,int> m ;    //Creates a map 'm' where key_type is of type string and data_type is of type int.
 
+*Insertion
+map<string,int> marksMap;       //Creates a map called marksMap and assigns values to keys 'Boy1','Boy2',....
+    marksMap["Boy1"]=100;
+    marksMap["Boy2"]=60;
+    marksMap["Boy3"]=70;
+    marksMap["Boy4"]=90;
+            OR 
+    marksMap.insert({{"Kozume", 169}, {"Kuroo", 187}});        
 
+* Accessing the value stored in the key:
+To get the value stored of the key "MAPS" we can do m["MAPS"] or we can get the iterator using the find function and then by itr->second we can access the value.
