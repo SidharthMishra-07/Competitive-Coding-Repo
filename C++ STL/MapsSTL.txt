@@ -1,0 +1,8 @@
+Maps are associative containers that store elements formed by a combination of a key value and a mapped value, following a specific order. No two mapped values can have same key values.
+
+std:: map <key_type, data_type>
+
+Declaration:
+map<string,int> m ;    //Creates a map 'm' where key_type is of type string and data_type is of type int.
+
+
