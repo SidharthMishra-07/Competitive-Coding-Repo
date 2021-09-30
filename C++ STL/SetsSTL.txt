@@ -1,0 +1,91 @@
+Sets are containers that store unique elements following a specific order.
+Sets are a type of associative containers in which each element has to be unique, because the value of the element identifies it. 
+Internally, the elements in a set are always sorted following a specific strict weak ordering criterion indicated by its internal comparison object 
+
+Sets are typically implemented as binary search trees.
+
+Iterators:
+1.) begin
+//Return iterator to beginning (public member function )
+
+2.) end
+//Return iterator to end (public member function )
+
+3.)rbegin
+//Return reverse iterator to reverse beginning (public member function )
+
+4.) rend
+//Return reverse iterator to reverse end (public member function )
+
+5.) cbegin 
+//Return const_iterator to beginning (public member function )
+
+6.) cend 
+//Return const_iterator to end (public member function )
+
+7.) crbegin 
+//Return const_reverse_iterator to reverse beginning (public member function )
+
+8.) crend 
+//Return const_reverse_iterator to reverse end (public member function )
+
+
+
+Capacity:
+1.) empty
+//Test whether container is empty (public member function )
+
+2.) size
+//Return container size (public member function )
+
+3.) max_size
+//Return maximum size (public member function )
+
+
+
+Modifiers:
+1.) insert
+//Insert element (public member function )
+
+2.) erase
+//Erase elements (public member function )
+
+3.) swap
+//Swap content (public member function )
+
+4.) clear
+//Clear content (public member function )
+
+5.) emplace 
+//Construct and insert element (public member function )
+
+6.) emplace_hint 
+//Construct and insert element with hint (public member function )
+
+
+
+Observers:
+1.) key_comp
+//Return comparison object (public member function )
+
+2.) value_comp
+//Return comparison object (public member function )
+
+
+
+Operations:
+1.) find
+//Get iterator to element (public member function )
+
+2.) count
+//Count elements with a specific value (public member function )
+
+3.) lower_bound
+//Return iterator to lower bound (public member function )
+
+4.) upper_bound
+//Return iterator to upper bound (public member function )
+
+5.) equal_range
+//Get range of equal elements (public member function )
+
