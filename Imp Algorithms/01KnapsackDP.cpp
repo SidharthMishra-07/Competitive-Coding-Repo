@@ -4,8 +4,7 @@ using namespace std;
 
 int max(int a, int b)
 {
-    if (a > b) 
-    {
+    if (a > b) {
         return a;
     }
     return b;
@@ -42,7 +41,7 @@ int main()
             }
             cout << Table[i][w] << " ";
         }
-        cout << "\n";
+        cout <<"\n";
     }
     int op = Table[objects][capacity];
     cout << "\n Optimal solution is : " << op << "\n\n";
