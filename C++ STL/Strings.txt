@@ -1,97 +1,140 @@
 Iterators:
 1.) begin
 // Return iterator to beginning (public member function )
+
 2.) end
 // Return iterator to end (public member function )
+
 3.) rbegin
 // Return reverse iterator to reverse beginning (public member function )
+
 4.) rend
 // Return reverse iterator to reverse end (public member function )
+
 5.) cbegin 
 // Return const_iterator to beginning (public member function )
+
 6.) cend 
 // Return const_iterator to end (public member function )
+
 7.) crbegin 
 // Return const_reverse_iterator to reverse beginning (public member function )
+
 8.) crend 
 // Return const_reverse_iterator to reverse end (public member function )
+
 
 Capacity:
 1.) size
 // Return length of string (public member function )
+
 2.) length
 // Return length of string (public member function )
+
 3.) max_size
 // Return maximum size of string (public member function )
+
 4.) resize
 // Resize string (public member function )
+
 5.) capacity
 // Return size of allocated storage (public member function )
+
 6.) reserve
 // Request a change in capacity (public member function )
+
 7.) clear
 // Clear string (public member function )
+
 8.) empty
 // Test if string is empty (public member function )
+
 9.) shrink_to_fit 
 // Shrink to fit (public member function )
+
 
 Element access:
 1.) operator[]
 // Get character of string (public member function )
+
 2.) at
 // Get character in string (public member function )
+
 3.) back 
 // Access last character (public member function )
+
 4.) front 
 // Access first character (public member function )
 
+
 Modifiers:
-operator+=
-Append to string (public member function )
-append
-Append to string (public member function )
-push_back
-Append character to string (public member function )
-assign
-Assign content to string (public member function )
-insert
-Insert into string (public member function )
-erase
-Erase characters from string (public member function )
-replace
-Replace portion of string (public member function )
-swap
-Swap string values (public member function )
-pop_back 
-Delete last character (public member function )
+1.) operator+=
+// Append to string (public member function )
+
+2.) append
+// Append to string (public member function )
+
+3.) push_back
+// Append character to string (public member function )
+
+4.) assign
+// Assign content to string (public member function )
+
+5.) insert
+// Insert into string (public member function )
+
+6.) erase
+// Erase characters from string (public member function )
+
+7.) replace
+// Replace portion of string (public member function )
+
+8.) swap
+// Swap string values (public member function )
+
+9.) pop_back 
+// Delete last character (public member function )
+
 
 String operations:
-c_str
-Get C string equivalent (public member function )
-data
-Get string data (public member function )
-get_allocator
-Get allocator (public member function )
-copy
-Copy sequence of characters from string (public member function )
-find
-Find content in string (public member function )
-rfind
-Find last occurrence of content in string (public member function )
-find_first_of
-Find character in string (public member function )
-find_last_of
-Find character in string from the end (public member function )
-find_first_not_of
-Find absence of character in string (public member function )
-find_last_not_of
-Find non-matching character in string from the end (public member function )
-substr
-Generate substring (public member function )
-compare
-Compare strings (public member function )
+1.) c_str
+// Get C string equivalent (public member function )
 
-Member constants
-npos
-Maximum value for size_t (public static member constant )
+2.) data
+// Get string data (public member function )
+
+3.) get_allocator
+// Get allocator (public member function )
+
+4.) copy
+// Copy sequence of characters from string (public member function )
+
+5.) find
+// Find content in string (public member function )
+
+6.) rfind
+// Find last occurrence of content in string (public member function )
+
+7.) find_first_of
+// Find character in string (public member function )
+
+8.) find_last_of
+// Find character in string from the end (public member function )
+
+9.) find_first_not_of
+// Find absence of character in string (public member function )
+
+10.) find_last_not_of
+// Find non-matching character in string from the end (public member function )
+
+11.) substr
+// Generate substring (public member function )
+
+12.) compare
+// Compare strings (public member function )
+
+
+Member constants:
+
+1.) npos
+// Maximum value for size_t (public static member constant )
